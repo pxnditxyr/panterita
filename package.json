@@ -1,0 +1,23 @@
+{
+  "name": "panterita",
+  "version": "0.0.1",
+  "main": "src/main.ts",
+  "scripts": {
+    "dev": "bun --watch .",
+    "build": "rm -rf dist && tsc",
+    "start": "node dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.1",
+    "prisma": "^6.0.1",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@prisma/client": "6.0.1"
+  }
+}
