@@ -1,2 +1,14 @@
-console.log( `Hello I'm Pxndxs 🐼` )
-console.log( 'Welcome to Panterita API 🐼' )
+import { envs } from './config'
+import { AppRoutes, Server } from './presentation'
+
+( async () => {
+  main()
+} )()
+
+function main () {
+  const server = new Server({
+    port: envs.PORT,
+    public_path: envs.PUBLIC_PATH,
+    routes: AppRoutes.routes,
+  })
+}
