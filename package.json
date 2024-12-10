@@ -19,6 +19,6 @@
   },
   "dependencies": {
     "@prisma/client": "6.0.1",
-    "config-environment": "^1.0.0"
+    "config-environment": "^2.0.0"
   }
 }
